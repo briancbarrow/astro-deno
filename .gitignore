@@ -2,7 +2,7 @@
 # dist/
 Dockerfile
 .output/
-
+fly.toml
 # dependencies
 node_modules/
 
