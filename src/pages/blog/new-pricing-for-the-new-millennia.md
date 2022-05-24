@@ -10,6 +10,6 @@ date: 2022-05-24T22:42:22.833Z
 ---
 ## Why pricing is low
 
-Volume.  It is all about Volume.
+Volume.  It is all about [Volume](www.deepgram.com).
 
 ![Pricing for base models](/images/uploads/screen-shot-2022-05-24-at-1.40.36-pm.png "Deepgram pricing")
