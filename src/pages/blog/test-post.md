@@ -1,18 +1,17 @@
 ---
-layout: $/layouts/Layout.astro
+layout: ../layouts/Layout.astro
 title: Test Post
 description: This is a test post for a POC for Netlify CMS
 author: Brian Barrow
 authorTwitter: the_brianb
 date: 2022-05-24T22:14:00.415Z
 ---
+
 ## What is Deno?
 
 Deno is a new JavaScript runtime. It was built by Ryan Dahl, the creator of Node.js. Dahl had a few things that he regretted doing with Node and wanted to build a runtime that could solve those issues. Deno, like Node, is built on the V8 JavaScript engine but was built using Rust instead of C++.
 
 One of the main goals of Deno is to bring server side JavaScript closer to browser JavaScript. If you've written in both Node and browser JavaScript, then you have surely run into the differences in the APIs used in the respective spaces. Deno aims to have the same APIs on the server that you would use in the browser. We'll take a deeper look at specific examples of this later on.
-
-
 
 ![Test image](/images/uploads/screen-shot-2022-05-13-at-3.27.58-pm.png "test image")
 
@@ -24,7 +23,7 @@ One of the most eye catching features of Deno is that it treats TypeScript as a 
 
 ### Security
 
-Deno by default is secure. This means that unless the script is *specifically* allowed, it cannot access system files, the environment (things like environment variables), or the network.
+Deno by default is secure. This means that unless the script is _specifically_ allowed, it cannot access system files, the environment (things like environment variables), or the network.
 
 ### Browser compatability
 
