@@ -11,10 +11,12 @@
     "build:server": "cp main.ts dist"
   },
   "devDependencies": {
-    "@astrojs/deno": "^0.1.2",
     "@astrojs/tailwind": "^0.2.1",
     "@astrojs/vue": "^0.1.4",
     "astro": "^1.0.0-beta.29",
     "vue": "^3.2.33"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^0.4.0"
   }
 }

@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Footer from '../components/Footer.astro';
 ---
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Deepgram.com Again</span></h1>
+		<h1>Welcome to <span class="text-gradient">Here</span></h1>
 		<p class="instructions">
 			Check out the <code>src/pages</code> directory to get started.<br/>
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
@@ -16,6 +17,7 @@ import Card from '../components/Card.astro';
 			<Card href="https://astro.build/chat/" title="Chat" body="Come say hi to our amazing Discord community. ❤️" />
 		</ul>
 	</main>
+  <Footer />
 </Layout>
 
 <style>
